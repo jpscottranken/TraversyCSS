@@ -1,0 +1,131 @@
+/*  Lines 2 - 11 = Add 0  */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  Lines 13 - 19 = Add 2 */
+/*.flex-container {
+	display: flex;
+  /*flex-direction: row;          UNCOMMENT AND SHOW*/
+  /*flex-direction:  column;      UNCOMMENT AND SHOW*/
+	/*background-color: #f4f4f4;
+}*/
+
+/*  Lines 21 - 28 = Add 1 */
+.flex-item {
+	height: 100px;
+	width: 100px;
+	background: #254de4;
+	color: #fff;
+	margin: 10px;
+}
+
+/*  Comment out lines 13 - 18 above, then 
+    show lines 35 - 38 below one at a time.
+    This is Add = 3 
+ */
+/*.flex-container {
+	display: flex;
+	background-color: #f4f4f4;*/
+/*  Lines 19 - 24 = Add 4 */
+/*justify-content: start;         UNCOMMENT AND SHOW*/
+/*justify-content: end;           UNCOMMENT AND SHOW*/
+/*justify-content: space-around;  UNCOMMENT AND SHOW*/
+/*justify-content: space-between; UNCOMMENT AND SHOW*/
+/*}*/
+
+/*  Comment out lines 29 - 42 above, then 
+    show lines 47 - 38 below one at a time. 
+    This is Add = 5 
+ */
+ .flex-container {
+  height: 400px;
+	display: flex;
+  justify-content: space-between;
+	background-color: #f4f4f4;
+  /*align-items: start;*/
+  /*align-items: center;*/
+  /*align-items: end;*/
+}
+
+/*  Add = 6 */
+/*.flex-item:nth-of-type(1) {
+	align-self:start;
+}
+
+.flex-item:nth-of-type(2) {
+	align-self:center;
+}
+
+.flex-item:nth-of-type(3) {
+	align-self:end;
+}*/
+
+/*  Comment out lines 57 - 69 above, add  */
+.flex-container {
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: column-reverse;*/
+  /*	First do a flex-direction: column		*/
+  /*	Then comment out do a flex-direction: row	*/
+  /*flex-direction: column;*/
+  /*flex-direction: row;*/
+  /*	Always on main axis	*/
+  /*justify-content: space-between;*/
+  /*justify-content: start;*/
+  /*justify-content: end;*/
+  justify-content: center;
+
+  /*	Always on cross axis	*/
+  /*align-items: start;*/
+  align-items: center;
+  /*align-items: end;*/
+  flex-wrap: wrap;
+}
+
+/*
+.flex-item:nth-of-type(1) {
+	order: 2;
+}
+
+.flex-item:nth-of-type(2) {
+	order: 1;
+}
+
+.flex-item:nth-of-type(3) {
+	order: 3;
+}
+*/
+/*
+.flex-item:nth-of-type(1) {
+	flex-grow: 3;
+  flex-basis: 300px;
+}
+
+.flex-item:nth-of-type(2) {
+	flex-grow: 1;
+}
+
+.flex-item:nth-of-type(3) {
+	flex-grow: 2;
+}
+*/
+.flex-item:nth-of-type(1) {
+	flex-shrink: 3;
+  flex-basis: 300px;
+}
+
+.flex-item:nth-of-type(2) {
+	flex-shrink: 1;
+}
+
+.flex-item:nth-of-type(3) {
+	flex-shrink: 2;
+}
+
+
